@@ -151,3 +151,29 @@ footer {
   footer p {
     text-align: center;
   } 
+
+  @media (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .search-box {
+        flex-direction: row;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    .search-box input {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .search-box button {
+        border-radius: 10px;
+    }
+
+    .enter {
+        padding-top: 10%;
+    }
+}
